@@ -1,0 +1,31 @@
+.background{
+    background-image: linear-gradient(30deg,green,darkgreen,black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card{
+    background-color: rgba(255,255,255,0.15);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 10px;
+}
+.homeButton{
+padding: 5px;
+background-color: rgb(150,150,150);
+margin-top: 15px;
+margin-bottom: 15px;
+border-radius: 10px;
+color:black;
+font-weight: 400;
+text-align: center;
+}
+.homeButton:hover{
+cursor: pointer;
+}

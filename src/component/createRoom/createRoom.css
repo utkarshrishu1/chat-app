@@ -1,0 +1,45 @@
+label{
+    margin-bottom: 10px;
+}
+.inputDiv{
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 10px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-around;
+}
+input{
+    background-color: rgba(0,0,0,0);
+    border: 0px;
+    padding: 2px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+input::placeholder{
+    color:black;
+}
+input:focus{
+    outline: none;
+}
+.inputError{
+    color: darkred;
+    box-sizing: border-box;
+    width: 140px;
+    font-size: small;
+}
+.enterButtons{
+    background-color: white;
+    padding: 5px;
+    color: black;
+    outline: none;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.enterButtons:hover{
+    cursor: pointer;
+}
